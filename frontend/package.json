@@ -1,0 +1,22 @@
+{
+  "name": "project-copilot-workbench",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --configLoader runner",
+    "build": "tsc --noEmit --pretty false && vite build --configLoader runner",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "latest",
+    "dompurify": "^3.4.15",
+    "marked": "^18.0.11",
+    "pdfjs-dist": "^4.10.38",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}

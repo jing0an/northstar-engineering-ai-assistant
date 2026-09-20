@@ -1,0 +1,60 @@
+frontend/node_modules/
+frontend/dist/
+backend/.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+qdrant_storage/
+
+# Environment files (keep public templates)
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Virtual environments
+.venv/
+.venv*/
+
+# Dependencies and build output
+**/node_modules/
+**/dist/
+
+# Python test and runtime artifacts
+.pytest_cache/
+.pytest-tmp*/
+*.log
+*.tmp
+
+# Package manager and application caches
+.npm-cache/
+.cache/
+tmp/
+temp/
+
+# Local IDE and generated data
+.idea/
+outputs/
+work/
+%USERPRFILE%/
+
+# User project and local vector database data
+backend/storage/
+backend/request.json
+backend/app/services/document_parsers/pdf_enhanced.py.broken
+qdrant-check.json
+frontend/src/data/projectData.ts
+backend/scripts/verify_real_ingestion.py
+
+# Legacy React prototype (current frontend uses Vue 3)
+frontend/src/App.tsx
+frontend/src/pages/WorkspacePage.tsx
+frontend/src/components/layout/Sidebar.tsx
+frontend/src/components/layout/Topbar.tsx
+frontend/src/components/ui/LogoMark.tsx
+frontend/src/components/workspace/ChatComposer.tsx
+frontend/src/components/workspace/MessageThread.tsx
+frontend/src/components/workspace/ProjectPanel.tsx
+frontend/src/components/workspace/QuickPrompts.tsx
+frontend/src/components/workspace/WelcomeHeader.tsx
+frontend/src/styles.css
